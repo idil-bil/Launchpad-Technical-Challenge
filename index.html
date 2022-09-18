@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .text_box {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+        background-color: #1C9A74;
+      }
+      h1 {
+        text-align: center;
+        font-family: Bahnschrift;
+        font-size: 50px;
+        font-weight: bold;
+        display: inline-block;
+      }
+      h2 {
+        text-align: center;
+        font-family: Bahnschrift;
+        font-size: 20px;
+        font-weight: bold;
+        display: inline-block;
+      }
+      h3 {
+        text-align: center;
+        font-family: Bahnschrift;
+        font-size: 15px;
+        font-weight: normal;
+        display: inline-block;
+      }
+      p {
+        text-align: center;
+        font-family: Bahnschrift;
+        font-size: 20px;
+        font-weight: normal;
+        line-height: 25px;
+        box-sizing:border-box;
+      }
+      img {
+        position: relative;
+        width: 300px;
+        height: 200px;
+        display:inline-block; 
+      }
+      .image_wrapper {
+        position: relative;
+        display:inline-block; 
+        align-items: center;
+        margin: 0 auto;
+      }
+      @media only screen and (min-width: 750px){
+        .image_items {
+        display: flex;
+        }
+      }
+    </style>
+    <meta name="viewport" content="width=device-width" />
+    <Title>DRUBER</Title>
+  </head>
+
+    <body>
+      <div class="text_box">
+        <h1>Druber</h1>
+        <p>A drone-based ride share application that carries you to your destination</p>
+      </div>
+      <div className='image_wrapper'>
+        <ul className='image_items'>
+            <center>
+              <img src='https://www.reuters.com/resizer/maa47eRA2SlsYluVKa1ue2ePDy8=/1200x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/UKETNNEUAROITNWICOA3BWELOU.jpg' alt="drone 4"/>
+              <img src='https://www.ecommercetimes.com/wp-content/uploads/sites/5/2021/05/xl-2019-uber-elevate-1.jpg' alt="drone 1"/>
+              <img src='https://helios-i.mashable.com/imagery/articles/022BG1korTyfZSvAlSPZl2w/hero-image.fill.size_1248x702.v1654568154.jpg' alt="drone 2"/>
+              <img src='https://cdn.thewirecutter.com/wp-content/media/2021/07/drones-2048px-2x1-9431.jpg?auto=webp&quality=75&crop=2:1&width=980&dpr=2' alt="drone 3"/>
+            </center>
+          </ul>
+      </div>
+      <div class="text_box">
+        <h2>Idil Bil</h2>
+        <h3>Solution to the front end technical challenge for UBC Launchpad.</h3>
+      </div>
+    </body>
+</html>
