@@ -1,4 +1,4 @@
-# Launchpad Tecnical Challenge
+# Launchpad-Tecnical-Challenge
 Solution to the Front End Technical Challenge for UBC Launchpad (September 2022)
 
 ## Description
